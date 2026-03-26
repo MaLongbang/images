@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Genset Cummins 1000kW</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-slate-100 text-slate-900">
+
+<header class="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-700 text-white">
+  <div class="max-w-7xl mx-auto px-6 pt-6 flex justify-between">
+    <div>
+      <div class="text-xl font-bold">YNGENSET</div>
+      <div class="text-sm text-slate-300">WEIFANG YONGNENG POWER</div>
+    </div>
+    <div class="text-sm text-slate-300">
+      <div>📞 +86 1579 4370 930</div>
+      <div>✉️ kual0929@gmail.com</div>
+    </div>
+  </div>
+
+  <div class="max-w-7xl mx-auto px-6 py-20">
+    <h1 class="text-5xl font-bold">Genset Cummins 1000kW</h1>
+    <p class="mt-4 text-lg text-slate-200">
+      Solusi genset heavy-duty untuk proyek industri dan sistem tenaga skala besar.
+    </p>
+  </div>
+</header>
+
+<main class="max-w-7xl mx-auto px-6 py-10 space-y-10">
+  <section class="grid md:grid-cols-3 gap-6">
+    <div class="bg-white p-6 rounded-2xl shadow">
+      <div class="text-sm text-slate-500">Output</div>
+      <div class="text-2xl font-bold">1000 kW</div>
+    </div>
+    <div class="bg-white p-6 rounded-2xl shadow">
+      <div class="text-sm text-slate-500">Alternator</div>
+      <div class="text-2xl font-bold">Stamford</div>
+    </div>
+    <div class="bg-white p-6 rounded-2xl shadow">
+      <div class="text-sm text-slate-500">Application</div>
+      <div class="text-2xl font-bold">Industrial</div>
+    </div>
+  </section>
+
+  <section class="bg-white p-6 rounded-2xl shadow">
+    <h2 class="text-xl font-semibold">Engine Specs</h2>
+    <table class="w-full mt-4 text-sm">
+      <tbody>
+        <tr><td>Model</td><td>Cummins KTA50-G8</td></tr>
+        <tr><td>Power</td><td>1429 kW</td></tr>
+        <tr><td>Cylinders</td><td>16</td></tr>
+        <tr><td>Fuel System</td><td>Direct injection</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section class="bg-white p-6 rounded-2xl shadow">
+    <h2 class="text-xl font-semibold">Fuel Consumption</h2>
+    <ul class="mt-4">
+      <li>50% Load: 110–130 L/h</li>
+      <li>75% Load: 160–180 L/h</li>
+      <li>100% Load: 210–230 L/h</li>
+    </ul>
+  </section>
+</main>
+
+<script>
+function runTests() {
+  const title = document.querySelector("h1");
+  if (!title) throw new Error("Title not found");
+  const cards = document.querySelectorAll("section div.bg-white");
+  if (cards.length < 3) throw new Error("Cards not rendered correctly");
+  console.log("All tests passed ✅");
+}
+window.onload = runTests;
+</script>
+
+</body>
+</html>
